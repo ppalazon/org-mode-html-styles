@@ -2,8 +2,8 @@
 #+AUTHOR: Pablo Palazón
 #+DATE: <2018-05-10 Thu>
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1"/>
-#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style.css" />
-#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-coal.css" />
+#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style.css" />
+#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style-coal.css" />
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
 

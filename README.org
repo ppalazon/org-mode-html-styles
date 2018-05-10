@@ -10,12 +10,12 @@ Basic configuration of this css
 
 #+BEGIN_SRC org
   ,#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style.css" />
+  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style.css" />
   ,#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
   ,#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
 #+END_SRC
 
-[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test.html][Basic example]]
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/examples/css-test.html][Basic example]]
 
 *** Themes
 
@@ -24,34 +24,34 @@ There are several themes you can use them adding next option to above configurat
 **** Rust
 
 #+BEGIN_SRC org
-  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-rust.css" />
+  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style-rust.css" />
 #+END_SRC
 
-[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-rust.html][Rust theme example]]
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/examples/css-test-rust.html][Rust theme example]]
 
 **** Coal
 
 #+BEGIN_SRC org
-  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-coal.css" />
+  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style-coal.css" />
 #+END_SRC
 
-[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-coal.html][Coal theme example]]
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/examples/css-test-coal.html][Coal theme example]]
 
 **** Navy
 
 #+BEGIN_SRC org
-  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-navy.css" />
+  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style-navy.css" />
 #+END_SRC
 
-[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-navy.html][Navy theme example]]
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/examples/css-test-navy.html][Navy theme example]]
 
 **** Ayu
 
 #+BEGIN_SRC org
-  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-ayu.css" />
+  ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/src/style-ayu.css" />
 #+END_SRC
 
-[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-ayu.html][Ayu theme example]]
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/examples/css-test-ayu.html][Ayu theme example]]
 
 *** =org-info.js= compatibility
 
@@ -59,7 +59,7 @@ There are several themes you can use them adding next option to above configurat
   ,#+INFOJS_OPT: view:showall toc:t ltoc:t mouse:underline path:https://orgmode.org/org-info.js
 #+END_SRC
 
-[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-info-js.html][=org-info.js= Compatible test]]
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/v1.0/examples/css-test-info-js.html][=org-info.js= Compatible test]]
 
 *** Snapshots of different resolutions
 
