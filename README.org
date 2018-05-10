@@ -63,12 +63,16 @@ There are several themes you can use them adding next option to above configurat
 
 *** Snapshots of different resolutions
 
+**** Desktop resolution
+
 #+caption: Desktop resolution
 [[https://i.imgur.com/Yl6DXLV.png]]
 
+**** Tablet resolution
 #+caption: Tablet resolution
 [[https://i.imgur.com/WmNUFZa.png]]
 
+**** Mobile resolution
 #+caption: Mobile resolution
 [[https://i.imgur.com/S3qFCAP.png]]
 
