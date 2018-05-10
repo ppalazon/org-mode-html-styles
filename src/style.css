@@ -159,6 +159,10 @@ table thead td {
     max-width: 100%;
 }
 
+.footnum, .footref, .figure-number, .table-number{
+    font-weight: bold;
+}
+
 .tag {
     background-color: #eee;
     border-radius: 5px;
@@ -173,6 +177,7 @@ pre.src {
     background-color: #1d1f21;
     color: #c5c8c6;
     overflow-x: auto;
+    font-size: 8pt;
 }
 
 @media print {    
