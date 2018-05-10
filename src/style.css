@@ -1,0 +1,223 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+@media (min-width: 900px) {
+    body {
+        width: calc(92% - 280px);
+        margin-left: 300px;
+        margin-right: 15px;
+    }
+}
+@media (max-width: 946px) {
+    body{
+        font-size: 95%;
+    }
+}
+@media (max-width: 900px) {
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 90%;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 86%;
+    }
+}
+code {
+    font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace;
+    font-size: 0.875em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.hidden {
+    display: none;
+}
+.play-button.hidden {
+    display: none;
+}
+h2,
+h3 {
+    margin-top: 2.5em;
+}
+h4,
+h5 {
+    margin-top: 2em;
+}
+.header + .header h3,
+.header + .header h4,
+.header + .header h5 {
+    margin-top: 1em;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table td {
+    padding: 3px 20px;
+    border: 1px solid;
+}
+table thead td {
+    font-weight: 700;
+}
+
+#table-of-contents {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    overflow-y: auto;
+    padding: 10px 10px;
+    font-size: 0.875em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    -ms-transition: -ms-transform 0.5s;
+    transition: transform 0.5s;
+}
+#table-of-contents code {
+    line-height: 2em;
+}
+
+#table-of-contents ul, .org-info-js_local-toc ul {
+    list-style: none outside none;
+    padding-left: 5px;
+    line-height: 1.3em;
+}
+#table-of-contents ul li a, .org-info-js_local-toc li a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+#table-of-contents ul li a:hover, .org-info-js_local-toc li a:hover {
+    text-decoration: none !important;
+}
+#table-of-contents ul .spacer {
+    width: 100%;
+    height: 3px;
+    margin: 10px 0px;
+}
+
+.org-info-js_local-toc {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    #table-of-contents > div > ul > li > ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #table-of-contents {
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #org-div-home-and-up {
+        display: none;
+    }
+}
+
+#org-info-js_console-container {
+    bottom: 0;
+    margin-top: 0;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    padding-bottom: 50px;
+}
+#content a {
+    text-decoration: none;
+}
+#content a:hover {
+    text-decoration: underline;
+}
+#content img {
+    max-width: 100%;
+}
+
+.tag {
+    background-color: #eee;
+    border-radius: 5px;
+    color: purple;
+}
+
+.timestamp {
+    color: #8c8c8c;
+}
+
+pre.src {
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    overflow-x: auto;
+}
+
+@media print {    
+    #table-of-contents, .org-info-js_local-toc, #sidebar, #menu-bar, .nav-chapters, .mobile-nav-chapters {
+        display: none;
+    }
+    #page-wrapper {
+        left: 0;
+        overflow-y: initial;
+    }
+    #page-wrapper.page-wrapper {
+        padding-left: 0px;
+    }
+    #content {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+    .page {
+        overflow-y: initial;
+    }
+    code {
+        background-color: #666;
+        border-radius: 5px;
+        /* Force background to be printed in Chrome */
+        -webkit-print-color-adjust: exact;
+    }
+    pre > .buttons {
+        z-index: 2;
+    }
+    a, a:visited, a:active, a:hover {
+        color: #4183c4;
+        text-decoration: none;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        page-break-inside: avoid;
+        page-break-after: avoid;
+        /*break-after: avoid*/
+    }
+    pre, code {
+        page-break-inside: avoid;
+        white-space: pre-wrap /* CSS 3 */;
+        white-space: -moz-pre-wrap /* Mozilla, since 1999 */;
+        white-space: -pre-wrap /* Opera 4-6 */;
+        white-space: -o-pre-wrap /* Opera 7 */;
+        word-wrap: break-word /* Internet Explorer 5.5+ */;
+    }
+}

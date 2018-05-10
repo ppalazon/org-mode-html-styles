@@ -1,0 +1,166 @@
+body{
+  color: #98a3ad;
+  background-color: #141617;
+/* Inline code */
+}
+#content .header:link,
+#content .header:visited {
+  color: #98a3ad;
+  pointer: cursor;
+}
+#content .header:link:hover,
+#content .header:visited:hover {
+  text-decoration: none;
+}
+.menu-bar {
+  margin: auto -15px;
+}
+.menu-bar > #menu-bar-sticky-container {
+  background-color: #141617;
+  border-bottom-color: #141617;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.menu-bar.bordered > #menu-bar-sticky-container {
+  border-bottom-color: #1f2223;
+}
+#table-of-contents {
+  background-color: #292c2f;
+  color: #a1adb8;
+}
+#table-of-contents::-webkit-scrollbar {
+  background: #292c2f;
+}
+#table-of-contents::-webkit-scrollbar-thumb {
+  background: #a1adb8;
+}
+#table-of-contents li {
+  color: #505254;
+}
+#table-of-contents li a {
+  color: #a1adb8;
+}
+#table-of-contents li .active,
+#table-of-contents li a:hover {
+/* Animate color change */
+  color: #3473ad;
+}
+#table-of-contents .spacer {
+  background-color: #393939;
+}
+.menu-bar,
+.menu-bar:visited,
+.nav-chapters,
+.nav-chapters:visited,
+.mobile-nav-chapters,
+.mobile-nav-chapters:visited,
+.menu-bar .icon-button,
+.menu-bar a i {
+  color: #43484d;
+}
+.menu-bar i:hover,
+.menu-bar .icon-button:hover,
+.nav-chapters:hover,
+.mobile-nav-chapters i:hover {
+  color: #b3c0cc;
+}
+.mobile-nav-chapters i:hover {
+  color: #a1adb8;
+}
+.mobile-nav-chapters {
+  background-color: #292c2f;
+}
+a:link,
+a:visited,
+a > .hljs {
+  color: #2b79a2;
+}
+.theme-popup {
+  color: #98a3ad;
+  background: #141617;
+  border: 1px solid #43484d;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+.theme-popup .theme:hover {
+  background-color: #1f2124;
+}
+.theme-popup .default {
+  color: #43484d;
+}
+blockquote {
+  margin: 20px 0;
+  padding: 0 20px;
+  color: #98a3ad;
+  background-color: #242637;
+  border-top: 0.1em solid #2c2f44;
+  border-bottom: 0.1em solid #2c2f44;
+}
+table td {
+  border-color: #1f2223;
+}
+table tbody tr:nth-child(2n) {
+  background: #1b1d1e;
+}
+table thead {
+  background: #3f4649;
+}
+table thead td {
+  border: none;
+}
+table thead tr {
+  border: 1px #3f4649 solid;
+}
+:not(pre) > .hljs {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  color: #c5c8c6;
+}
+a:hover > .hljs {
+  text-decoration: underline;
+}
+pre {
+  position: relative;
+}
+pre > .buttons {
+  position: absolute;
+  z-index: 100;
+  right: 5px;
+  top: 5px;
+  color: #a1adb8;
+  cursor: pointer;
+}
+pre > .buttons :hover {
+  color: #3473ad;
+}
+pre > .buttons i {
+  margin-left: 8px;
+}
+pre > .buttons button {
+  color: inherit;
+  background: transparent;
+  border: none;
+  cursor: inherit;
+}
+pre > .result {
+  margin-top: 10px;
+}
+.icon-button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+.icon-button i {
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  background: #141617;
+}
+body::-webkit-scrollbar-thumb {
+  background: #a1adb8;
+}

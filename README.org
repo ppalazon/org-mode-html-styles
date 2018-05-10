@@ -1,0 +1,12 @@
+* CSS stylesheet for org-mode
+
+This repository contains public CSS for use on exported html written
+on org-mode. It isn't necessary use special html export function, you
+only need configure =#+HTML_HEAD= parameters
+
+** References
+
+I develop this css based on:
+
+- [[https://thibaultmarin.github.io/blog/posts/2016-11-13-Personal_website_in_org.html#org92d2b4b][Personal website in org]] (thibaultmarin.github.io)
+- [[https://github.com/rust-lang-nursery/mdBook][rust-lang-nursery/mdBook]]

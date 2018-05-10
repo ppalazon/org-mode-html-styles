@@ -1,0 +1,166 @@
+body {
+  color: #c5c5c5;
+  background-color: #0f1419;
+/* Inline code */
+}
+.content .header:link,
+#content .header:visited {
+  color: #c5c5c5;
+  pointer: cursor;
+}
+#content .header:link:hover,
+#content .header:visited:hover {
+  text-decoration: none;
+}
+.menu-bar {
+  margin: auto -15px;
+}
+.menu-bar > #menu-bar-sticky-container {
+  background-color: #0f1419;
+  border-bottom-color: #0f1419;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.menu-bar.bordered > #menu-bar-sticky-container {
+  border-bottom-color: #182028;
+}
+#table-of-contents {
+  background-color: #14191f;
+  color: #c8c9db;
+}
+#table-of-contents::-webkit-scrollbar {
+  background: #14191f;
+}
+#table-of-contents::-webkit-scrollbar-thumb {
+  background: #c8c9db;
+}
+.chapter li {
+  color: #5c6773;
+}
+#table-of-contents li a {
+  color: #c8c9db;
+}
+#table-of-contents li .active,
+#table-of-contents li a:hover {
+/* Animate color change */
+  color: #ffb454;
+}
+#table-of-contents .spacer {
+  background-color: #2d334f;
+}
+.menu-bar,
+.menu-bar:visited,
+.nav-chapters,
+.nav-chapters:visited,
+.mobile-nav-chapters,
+.mobile-nav-chapters:visited,
+.menu-bar .icon-button,
+.menu-bar a i {
+  color: #737480;
+}
+.menu-bar i:hover,
+.menu-bar .icon-button:hover,
+.nav-chapters:hover,
+.mobile-nav-chapters i:hover {
+  color: #b7b9cc;
+}
+.mobile-nav-chapters i:hover {
+  color: #c8c9db;
+}
+.mobile-nav-chapters {
+  background-color: #14191f;
+}
+a:link,
+a:visited,
+a > .hljs {
+  color: #0096cf;
+}
+.theme-popup {
+  color: #c5c5c5;
+  background: #14191f;
+  border: 1px solid #5c6773;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+.theme-popup .theme:hover {
+  background-color: #191f26;
+}
+.theme-popup .default {
+  color: #737480;
+}
+blockquote {
+  margin: 20px 0;
+  padding: 0 20px;
+  color: #c5c5c5;
+  background-color: #262933;
+  border-top: 0.1em solid #2f333f;
+  border-bottom: 0.1em solid #2f333f;
+}
+table td {
+  border-color: #182028;
+}
+table tbody tr:nth-child(2n) {
+  background: #141b22;
+}
+table thead {
+  background: #324354;
+}
+table thead td {
+  border: none;
+}
+table thead tr {
+  border: 1px #324354 solid;
+}
+:not(pre) > .hljs {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  color: #ffb454;
+}
+a:hover > .hljs {
+  text-decoration: underline;
+}
+pre {
+  position: relative;
+}
+pre > .buttons {
+  position: absolute;
+  z-index: 100;
+  right: 5px;
+  top: 5px;
+  color: #c8c9db;
+  cursor: pointer;
+}
+pre > .buttons :hover {
+  color: #ffb454;
+}
+pre > .buttons i {
+  margin-left: 8px;
+}
+pre > .buttons button {
+  color: inherit;
+  background: transparent;
+  border: none;
+  cursor: inherit;
+}
+pre > .result {
+  margin-top: 10px;
+}
+.icon-button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+.icon-button i {
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  background: #0f1419;
+}
+body::-webkit-scrollbar-thumb {
+  background: #c8c9db;
+}
