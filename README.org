@@ -15,6 +15,8 @@ Basic configuration of this css
   ,#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
 #+END_SRC
 
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test.html][Basic example]]
+
 *** Themes
 
 There are several themes you can use them adding next option to above configuration
@@ -25,11 +27,15 @@ There are several themes you can use them adding next option to above configurat
   ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-rust.css" />
 #+END_SRC
 
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-rust.html][Rust theme example]]
+
 **** Coal
 
 #+BEGIN_SRC org
   ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-coal.css" />
 #+END_SRC
+
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-coal.html][Coal theme example]]
 
 **** Navy
 
@@ -37,11 +43,35 @@ There are several themes you can use them adding next option to above configurat
   ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-navy.css" />
 #+END_SRC
 
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-navy.html][Navy theme example]]
+
 **** Ayu
 
 #+BEGIN_SRC org
   ,#+HTML_HEAD: <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/src/style-ayu.css" />
 #+END_SRC
+
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-ayu.html][Ayu theme example]]
+
+*** =org-info.js= compatibility
+
+#+BEGIN_SRC org
+  ,#+INFOJS_OPT: view:showall toc:t ltoc:t mouse:underline path:https://orgmode.org/org-info.js
+#+END_SRC
+
+[[https://cdn.rawgit.com/ppalazon/org-mode-html-styles/master/examples/css-test-info-js.html][=org-info.js= Compatible test]]
+
+*** Snapshots of different resolutions
+
+#+caption: Desktop resolution
+[[https://i.imgur.com/Yl6DXLV.png]]
+
+#+caption: Tablet resolution
+[[https://i.imgur.com/WmNUFZa.png]]
+
+#+caption: Mobile resolution
+[[https://i.imgur.com/S3qFCAP.png]]
+
 ** References
 
 I develop this css based on:
